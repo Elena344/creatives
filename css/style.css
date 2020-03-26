@@ -448,6 +448,16 @@ footer{
 	input[type="email"], input[type="tel"]{
 		margin-top: 20px;
 	}
+	
+	.overlay{
+		font-size: 240px;
+	}
+	
+	h2{
+		top: -11rem;
+		font-size: 32px;
+	}
+	
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -488,7 +498,6 @@ footer{
 	input[type="email"], input[type="tel"]{
 		margin-top: 30px;
 	}
-	
  }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -510,6 +519,10 @@ footer{
 		padding: 0 0.6rem;
 	}
 	
+	.news-item{
+		padding: 2rem;
+	}
+	
 	.blog-section{
 		padding: 0.2rem;
 	}
@@ -518,6 +531,7 @@ footer{
 		padding: 1rem 2rem 1rem 0;
 	}
 	
+
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
